@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build/css/app.css">
+    <title> CaféTuxtla | Inicio</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <h1 class="logo">Café<span>Tuxtla</span></h1>
+                </a>
+
+                <div class="mobile-menu">
+                    <img src="build/img/barras.svg" alt="menu">
+                </div>
+
+                <div class="derecha">
+                    <img src="build/img/dark-mode.svg" 
+                    alt="dark" 
+                    class="dark">
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nostros</a>
+                    <a href="servicios.html">Servicios</a>
+                    <a href="clientes.html">Clientes</a>
+                    <a href="galeria.html">Galeria</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="blog.html">Blog</a>
+                </nav>
+            </div> <!--FIN BARRA -->
+
+        </div> <!--Fin CONTENIDO-->
+
+    </header> <!--Fin Header-->
+
+    <main class="contenedor seccion">
+       
+        <div class="nosotros">
+            <div class="imagen-nosotros">
+                <picture>
+                    <source 
+                    srcset="build/img/clientes.webp"
+                    type="image/webp"
+                    >
+                    <source
+                    srcset="build/img/clientes.jpg"
+                    type="image/jpeg"
+                    >
+                    <img src="build/img/clientes.jpg" alt="clientes" loading="lazy">
+                </picture>
+            </div>
+
+            <div class="texto-nosotros">
+                <blockquote>Para Nuestros Clientes</blockquote>
+
+                <p>
+                    "En Nombre de  CaféTuxtla, nuestros clientes son nuestra mayor inspiración. Cada día nos esforzamos por 
+                    superar sus expectativas y brindarles soluciones innovadoras y de alta calidad. Nos enorgullece contar con 
+                    una amplia base de clientes satisfechos que han experimentado el valor de nuestros productos/servicios de 
+                    primera mano. Sus testimonios y comentarios nos motivan a seguir mejorando y ofreciendo experiencias 
+                    excepcionales. Descubre lo que nuestros clientes tienen que decir sobre nosotros y únete a nuestra 
+                    comunidad de usuarios satisfechos."
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <section class="contenedor seccion">
+        <h2>Algunas Reseñas de Nuestros Clientes</h2>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-title">Elizabeth</div>
+                <div class="card-text">
+                    Excelente servicio, ambiente calido y acogedor, un lugar perfecto para ir por las tardes
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-title">Robert</div>
+                <div class="card-text">
+                    Exclente ambiente, muy acogedor, si quieres pasartela bien te recomiendo ir es un lugar marivilloso
+                    para leer un buen libro y tomar un café americano
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-title">Nicolas</div>
+                <div class="card-text">
+                    Es un lugar increible, el personal es muy amable, es uno de mis lugares favorios para ir a tomar un buen café 
+                    natural realizado en los Tuxtlas
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer seccion">
+        <div class="contenedor contenido-footer">
+
+            <nav class="navegacion">
+                <a href="nosotros.html">Nostros</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="clientes.html">Clientes</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="blog.html">Blog</a>
+            </nav>
+
+        </div>
+
+        <p class="copy">
+            Todos los Derechos Reservados 2024 &copy;
+        </p>
+
+    </footer>
+
+    <script src="build/js/bundle.min.js"></script>
+    
+</body>
+</html>

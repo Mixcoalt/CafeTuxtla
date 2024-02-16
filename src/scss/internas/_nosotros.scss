@@ -1,0 +1,27 @@
+.nosotros{
+    @include tablet{
+        @include grid(2, 2rem)
+    }
+
+    .texto-nosotros{
+        blockquote{
+            text-align: center;
+            font-size: 3rem;
+            font-weight: $black;
+            padding: 1rem;
+        }
+
+        p{
+            text-align: center;
+        }
+
+        @include tablet{
+            blockquote{
+                text-align: left;
+            }
+            p{
+                text-align: left;
+            }
+        }
+    }
+}

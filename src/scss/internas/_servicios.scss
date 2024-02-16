@@ -1,0 +1,26 @@
+.contenedor-servicios{
+    @include tablet{
+        @include grid(3, 2rem);
+    }
+
+    .servicios{
+        background-color: $amarillo;
+        border: solid 1px darken($gris, 5);
+        margin-bottom: 2rem;
+
+        .contenido-servicios{
+            padding: 2rem;
+        }
+
+        h3, p{
+            color: $blanco;
+            margin: 0;
+        }
+        h3{
+            font-weight: $black;
+        }
+        p{
+            font-weight: $bold;
+        }
+    }
+}

@@ -1,0 +1,77 @@
+.no-webp .imagen-contacto{
+    background-image: url('../../../build/img/imagen-f.jpg');
+}
+
+.webp .imagen-contacto{
+    background-image: url('../../../build/img/imagen-f.webp');
+}
+
+.imagen-contacto{
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: calc($separacion * 2) 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2{
+        color: $blanco;
+        font-weight: $black;
+        font-size: 4rem;
+    }
+    p{
+        color: $blanco;
+        font-weight: $bold;
+        font-size: 2rem;
+    }
+}
+
+.contacto-bg {
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario {
+    background-color: $blanco;
+    margin: -10rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+    .campo {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+    .campo__label {
+        flex: 0 0 9rem;
+        text-align: right;
+        padding-right: 2rem;
+    }
+    .campo__field {
+        flex: 1;
+        border: 1px solid $gris;
+        border-radius: 1rem;
+    }
+    .campo__field--textarea {
+        height: 20rem;
+    }
+}
+
+.error{
+    background-color: rgb(185, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    color: $blanco;
+    text-transform: uppercase;
+    font-weight: $black;
+}
+
+.enviar{
+    background-color: $verde;
+    text-align: center;
+    padding: 1rem;
+    color: $blanco;
+    text-transform: uppercase;
+    font-weight: $black;
+}

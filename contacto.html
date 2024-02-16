@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build/css/app.css">
+    <title> CaféTuxtla | Inicio</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <h1 class="logo">Café<span>Tuxtla</span></h1>
+                </a>
+
+                <div class="mobile-menu">
+                    <img src="build/img/barras.svg" alt="menu">
+                </div>
+
+                <div class="derecha">
+                    <img src="build/img/dark-mode.svg" 
+                    alt="dark" 
+                    class="dark">
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nostros</a>
+                    <a href="servicios.html">Servicios</a>
+                    <a href="clientes.html">Clientes</a>
+                    <a href="galeria.html">Galeria</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="blog.html">Blog</a>
+                </nav>
+            </div> <!--FIN BARRA -->
+
+        </div> <!--Fin CONTENIDO-->
+
+    </header> <!--Fin Header-->
+
+<main class="contenedor">
+    <h3 class="centrar-texto">Contacto</h3>
+
+    <div class="contacto-bg"></div>
+
+    <form class="formulario">
+        <div class="campo">
+            <label class="campo__label" for="nombre">Nombre</label>
+            <input 
+                class="campo__field"
+                type="text" 
+                placeholder="Tu Nombre" 
+                id="nombre"
+            >
+        </div>
+        <div class="campo">
+            <label class="campo__label" for="email">E-mail</label>
+            <input 
+                class="campo__field"
+                type="email" 
+                placeholder="Tu E-mail" 
+                id="email"
+            >
+        </div>
+        <div class="campo">
+            <label class="campo__label" for="mensaje">Mensaje</label>
+            <textarea 
+                class="campo__field campo__field--textarea"
+                id="mensaje"
+            ></textarea>
+        </div>
+
+        <div class="campo">
+            <input type="submit" value="Enviar" class="boton-amarillo-inline">
+        </div>
+    </form>
+</main>
+
+
+
+    <footer class="footer seccion">
+        <div class="contenedor contenido-footer">
+
+            <nav class="navegacion">
+                <a href="nosotros.html">Nostros</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="clientes.html">Clientes</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="blog.html">Blog</a>
+            </nav>
+
+        </div>
+
+        <p class="copy">
+            Todos los Derechos Reservados 2024 &copy;
+        </p>
+
+    </footer>
+
+    <script src="build/js/bundle.min.js"></script>
+    
+</body>
+</html>
